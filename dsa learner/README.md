@@ -78,7 +78,7 @@ src/
 
 ```bash
 git clone https://github.com/Parasprogrammer/DSA-LEARNER.git
-cd DSA-LEARNER
+cd "DSA-LEARNER/dsa learner"
 npm install
 npm run dev
 ```
@@ -119,7 +119,7 @@ service cloud.firestore {
 The app is set up for **Vercel**. [vercel.json](vercel.json) rewrites every route to `index.html`, so client-side routes such as `/dashboard` don't return a 404 when the page is refreshed.
 
 1. Push the repository to GitHub.
-2. Import it in Vercel. The framework preset is **Vite**, the build command is `npm run build`, and the output directory is `dist`.
+2. Import it in Vercel and set the **Root Directory** to `dsa learner`. The framework preset is **Vite**, the build command is `npm run build`, and the output directory is `dist`.
 3. Add your Vercel domain under **Firebase → Authentication → Settings → Authorized domains**.
 
 ## ➕ Adding a New Algorithm
